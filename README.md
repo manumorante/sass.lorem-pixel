@@ -11,7 +11,7 @@ background: pixer();
 ```scss
 background: pixer(1);
 ```
-*Specific dimensions, random category and random id.**
+**Specific dimensions, random category and random id.**
 ```scss
 background: pixer(800, 600);
 ```
