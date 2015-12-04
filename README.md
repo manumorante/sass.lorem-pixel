@@ -1,30 +1,29 @@
-# Pixer - Lorem Pixel sass-mixin
-
-Manu Morante #17/02/2015 | More info about image service: http://lorempixel.com/
+# Pixer
+Lorem Pixel sass-mixin
 
 ## Usage
 
-*Fixed dimensions (400x350), random category and random id.*
+**Fixed dimensions (400x350), random category and random id.**
 ```scss
 background: pixer(); 
 ```
-*Specific id, fixed dimension (400x350) and category nature.*
+**Specific id, fixed dimension (400x350) and category nature.**
 ```scss
 background: pixer(1);
 ```
-*Specific dimensions, random category and random id.*
+*Specific dimensions, random category and random id.**
 ```scss
 background: pixer(800, 600);
 ```
-*Specific dimensions and category. Ramdom Id.*
+**Specific dimensions and category. Ramdom Id.**
 ```scss
 background: pixer(800, 600, people);
 ```
-*Specific*
+**Specific**
 ```scss
 background: pixer(800, 600, people, 1);
 ```
-*Without 'url()'*
+**Without 'url()'**
 ```scss
 background: image-url("#{ pixer(800, 600, $out-url: false) }");
 ```
@@ -38,3 +37,7 @@ background: url("//lorempixel.com/800/600/people/");
 background: url("//lorempixel.com/800/600/people/1/");
 background: image-url("//lorempixel.com/800/600/people/1/");
 ```
+
+Manu Morante #17/02/2015
+
+More info about image service: http://lorempixel.com/
